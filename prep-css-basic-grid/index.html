@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS Basic Grid</title>
+  <style>
+    .container {
+      max-width: 1250px;
+      margin: auto;
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    .column {
+      max-width: 30%;
+      background-color: olive;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 5px;
+    }
+
+    img {
+      max-width: 100%;
+      max-height: 100%;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse at urna congue, sollicitudin elit vehicula, porta risus.
+          Donec quis fermentum lectus, id scelerisque leo.
+          Aliquam eleifend efficitur diam, nec aliquet tellus tempus eu.
+          Aenean scelerisque.
+        </p>
+        <img src="images/left-image.jpg" alt="Caveman family">
+      </div>
+      <div class="column">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse at urna congue, sollicitudin elit vehicula, porta risus.
+          Donec quis fermentum lectus, id scelerisque leo.
+          Aliquam eleifend efficitur diam, nec aliquet tellus tempus eu.
+          Aenean scelerisque.
+        </p>
+        <img src="images/center-image.jpg" alt="Old village">
+      </div>
+      <div class="column">
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+          Suspendisse at urna congue, sollicitudin elit vehicula, porta risus.
+          Donec quis fermentum lectus, id scelerisque leo.
+          Aliquam eleifend efficitur diam, nec aliquet tellus tempus eu.
+          Aenean scelerisque.
+        </p>
+        <img src="images/right-image.jpg" alt="Family inside a hut">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
