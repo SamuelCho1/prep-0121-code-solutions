@@ -51,3 +51,30 @@ function multiplyAndDivideBy5(num1, num2) {
 var multiplyAndDivideBy5Results = multiplyAndDivideBy5(35, 10);
 
 console.log('multiplyAndDivideBy5 Exercise:', multiplyAndDivideBy5Results);
+
+// subtractTwoNumbers Exercise
+function subtractTwoNumbers(num1, num2) {
+  return num1 - num2;
+}
+
+var subtractTwoNumbersResults = subtractTwoNumbers(22, 7);
+
+console.log('subtractTwoNumbers Exercise:', subtractTwoNumbersResults);
+
+// getCircleCircumference Exercise
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+var getCircleCircumferenceResults = getCircleCircumference(5);
+
+console.log('getCircleCircumference Exercise:', getCircleCircumferenceResults);
+
+// returnFullName Exercise
+function returnFullName(firstName, lastName) {
+  return firstName + ' ' + lastName;
+}
+
+var returnFullNameResults = returnFullName('Samuel', 'Cho');
+
+console.log('returnFullName Exercise:', returnFullNameResults);
