@@ -78,3 +78,22 @@ function returnFullName(firstName, lastName) {
 var returnFullNameResults = returnFullName('Samuel', 'Cho');
 
 console.log('returnFullName Exercise:', returnFullNameResults);
+
+// cubeNumber Exercise
+function cubeNumber(number) {
+  return Math.pow(number, 3);
+}
+
+var cubeNumberResults = cubeNumber(5);
+
+console.log('cubeNumber Exercise:', cubeNumberResults);
+
+// returnMathSentence Exercise
+function returnMathSentence(num1, num2) {
+  return 'If you add ' + num1 + ' and ' + num2 + ' together you get ' +
+  addTwoNumbers(num1, num2) + '.';
+}
+
+var returnMathSentenceResults = returnMathSentence(5, 12);
+
+console.log('returnMathSentence Exercise:', returnMathSentenceResults);
